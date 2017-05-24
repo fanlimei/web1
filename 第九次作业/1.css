@@ -1,0 +1,27 @@
+.main {
+	width:1200px;
+	height:310px;
+	margin:30px auto 0px;
+}
+.main .imgage {
+	float: left;
+	border: 1px solid #ccc;
+	padding:2px;
+	margin-right:2px;
+}
+img{
+	width:130px;
+	height:90px;
+	float: left;
+}
+div.imgage a:hover img{opacity=1}
+div.imgage img{
+	display: inline;
+	margin: 3px;
+	border: 1px solid #bebebe;
+	width: 200px;
+	height: 160px;
+}
+div.imgage a:hover img{
+	border: 1px solid #333333;
+}
