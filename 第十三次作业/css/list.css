@@ -1,0 +1,116 @@
+*{
+	margin:0px auto;
+	padding:0px;
+	list-style:none;
+	font-family: 宋体;
+	color:#522a06;}
+body{
+	padding: 0px;
+	margin: 0px;
+	background-image:url(../images/beijing.jpg);
+}
+a{
+	text-decoration:none;}
+a:hover{
+	text-decoration:underline;}
+li{
+	line-height: 30px;
+}
+.header{
+	width:100%;
+	height:164px;
+	background-position:center;
+	background-color: #600;}
+.nav{
+	width:100%;
+	height:40px;
+    background-color: #900;}
+.nav_content li{
+	list-style:none;
+	margin-right: 15px;
+	padding:0px;
+	float:left;
+	color: #fff;
+	text-align: center;
+	}
+.nav_content{
+	float:left;
+	width:800px;
+	font-weight:bolder;
+	color:#FFF;
+	padding-left: 180px;}
+.nav_content a{
+	color:#FFF;
+	width:65px;
+	line-height:40px;
+	font-weight:bold;
+	text-align:center;}
+.nav_content a:hover{
+	color:#f9f603;
+	text-decoration:none;}
+.nav_search{
+	width:200px;
+	float:left;
+	padding:10px 0;}
+.search{
+	width:150px;
+	height:19px;
+	float:left;
+	border:1px solid #FFF;
+	background-color:#f8f5ee;}
+.search_btn{
+	width:44px;
+	height:21px;
+	float:left;
+	background-color:#000;
+	border:1px solid #f8f5ee;
+	color:#FFF;}
+.content{
+	clear:left;
+	width:1000px;
+	padding-left: 140px;
+}
+.mianbao{
+	color:#900;
+	padding-top: 30px;
+}
+span{
+	float:right;
+}
+.content {
+	margin-left:30px;
+}
+.hr{
+	margin-bottom: 30px;
+}
+.one{
+	margin-top:10px;
+	border:1px dashed #000;
+}
+.footer{
+	margin-top: 100px;
+	clear:left;
+	text-align: center;
+	position:relative;
+	top:10px;
+	
+}
+.three{
+
+	width:1000px;
+	color:#900;
+	height:30px;
+	font-weight: bold;
+	font-size: 28px;
+}
+.footer a{
+	margin:10px;
+}
+.four{
+	margin-top: 20px;
+	width:1000px;
+}
+.five{
+	margin-top: 100px;
+}
+
