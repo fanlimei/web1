@@ -116,9 +116,9 @@
 			<tr>
 				<td colspan="2" align="left" class="submit">
 					<br/>
-					<input type="submit" name="submit" value="登录"/>
+					<input type="button" name="submit" value="登录"/>
 					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-					<input type="submit" name="submit" value="注册"/>
+					<input type="button" name="submit" value="注册"/>
 				</td>
 			</tr>
 		</table>
@@ -145,7 +145,7 @@
 	var username=$('input[name=username]');
 	var password=$('input[name=pwd]'); 
 	var repwd=$('input[name=repwd]');
-	$('input[type=submit]').click(function(e){
+	$('input[type=button]').click(function(e){
 		if(username.val()=='')
 		{
 			$('.userErr').html('请输入用户名');
@@ -167,7 +167,7 @@
 			e.preventDefault();
 		}
 	})
-	$('input:not([type=submit])').focus(function(){
+	$('input:not([type=button])').focus(function(){
 		$(this).next().html('');
 	});
 	username.blur(function(){
